@@ -3,7 +3,7 @@ export default function swDev() {
   navigator.serviceWorker
     .register(swURL)
     .then((res) => {
-      console.log("Service Worker is running...", res);
+      console.log("Service Worker is running...");
     })
     .catch((err) => {
       console.log("error", err);

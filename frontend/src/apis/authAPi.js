@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// const APIURL = "https://react-auth-app-for-vercel.vercel.app/"; // production
-const APIURL = "http://localhost:8000/"; // development
+const APIURL = "https://react-auth-app-for-vercel.vercel.app/"; // production
+// const APIURL = "http://localhost:8000/"; // development
 let token;
 
 export const registerUser = async (data) => {
